@@ -10,7 +10,7 @@
     "authors": [
         {
             "name": "jinowom",
-            "email": "cocoli6000@gmail.com"
+            "email": "chareler@163.com"
         }
     ],
     "require": {
@@ -20,7 +20,7 @@
         "ext-libxml": "*",
         "ext-json": "*",
         "ext-bcmath": "*",
-        "jinowom/supports": "^2.0",
+        "jinowom/yii2-pay-supports": "*",
         "symfony/http-foundation": "^4.0 || ^5.0.7",
         "symfony/event-dispatcher": "^4.0 || ^5.0"
     },
