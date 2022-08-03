@@ -1,10 +1,10 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Gateways;
+namespace Jinowom\Pay\Tests\Gateways;
 
 use Symfony\Component\HttpFoundation\Response;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Tests\TestCase;
+use Jinowom\Pay\Pay;
+use Jinowom\Pay\Tests\TestCase;
 
 class AlipayTest extends TestCase
 {

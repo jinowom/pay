@@ -1,12 +1,12 @@
 <?php
 
-namespace Yansongda\Pay\Tests;
+namespace Jinowom\Pay\Tests;
 
-use Yansongda\Pay\Contracts\GatewayApplicationInterface;
-use Yansongda\Pay\Exceptions\InvalidGatewayException;
-use Yansongda\Pay\Gateways\Alipay;
-use Yansongda\Pay\Gateways\Wechat;
-use Yansongda\Pay\Pay;
+use Jinowom\Pay\Contracts\GatewayApplicationInterface;
+use Jinowom\Pay\Exceptions\InvalidGatewayException;
+use Jinowom\Pay\Gateways\Alipay;
+use Jinowom\Pay\Gateways\Wechat;
+use Jinowom\Pay\Pay;
 
 class PayTest extends TestCase
 {
