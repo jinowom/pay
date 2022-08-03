@@ -14,7 +14,7 @@ class RequestReceived extends Event
     /**
      * Bootstrap.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      */
     public function __construct(string $driver, string $gateway, array $data)
     {

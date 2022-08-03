@@ -85,7 +85,7 @@ class Wechat implements GatewayApplicationInterface
     /**
      * Bootstrap.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @throws Exception
      */
@@ -113,7 +113,7 @@ class Wechat implements GatewayApplicationInterface
     /**
      * Magic pay.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param string $method
      * @param string $params
@@ -130,7 +130,7 @@ class Wechat implements GatewayApplicationInterface
     /**
      * Pay an order.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param string $gateway
      * @param array  $params
@@ -157,7 +157,7 @@ class Wechat implements GatewayApplicationInterface
     /**
      * Verify data.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param string|null $content
      *
@@ -190,7 +190,7 @@ class Wechat implements GatewayApplicationInterface
     /**
      * Query an order.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param string|array $order
      *
@@ -226,7 +226,7 @@ class Wechat implements GatewayApplicationInterface
     /**
      * Refund an order.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @throws GatewayException
      * @throws InvalidSignException
@@ -248,7 +248,7 @@ class Wechat implements GatewayApplicationInterface
     /**
      * Cancel an order.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param array $order
      *
@@ -274,7 +274,7 @@ class Wechat implements GatewayApplicationInterface
     /**
      * Close an order.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param string|array $order
      *
@@ -296,7 +296,7 @@ class Wechat implements GatewayApplicationInterface
     /**
      * Echo success to server.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @throws InvalidArgumentException
      */
@@ -314,7 +314,7 @@ class Wechat implements GatewayApplicationInterface
     /**
      * Download the bill.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @throws GatewayException
      * @throws InvalidArgumentException
@@ -342,7 +342,7 @@ class Wechat implements GatewayApplicationInterface
     /**
      * Make pay gateway.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param string $gateway
      *

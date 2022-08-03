@@ -15,7 +15,7 @@ class RedpackGateway extends Gateway
     /**
      * Pay an order.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param string $endpoint
      *
@@ -52,7 +52,7 @@ class RedpackGateway extends Gateway
     /**
      * Find.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param $billno
      */
@@ -68,7 +68,7 @@ class RedpackGateway extends Gateway
     /**
      * Get trade type config.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      */
     protected function getTradeType(): string
     {

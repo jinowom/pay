@@ -15,7 +15,7 @@ class TransferGateway extends Gateway
     /**
      * Pay an order.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param string $endpoint
      *
@@ -55,7 +55,7 @@ class TransferGateway extends Gateway
     /**
      * Find.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param $order
      */
@@ -71,7 +71,7 @@ class TransferGateway extends Gateway
     /**
      * Get trade type config.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      */
     protected function getTradeType(): string
     {

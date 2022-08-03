@@ -76,7 +76,7 @@ class Alipay implements GatewayApplicationInterface
     /**
      * Bootstrap.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @throws \Exception
      */
@@ -107,7 +107,7 @@ class Alipay implements GatewayApplicationInterface
     /**
      * Magic pay.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param string $method
      * @param array  $params
@@ -132,7 +132,7 @@ class Alipay implements GatewayApplicationInterface
     /**
      * Pay an order.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param string $gateway
      * @param array  $params
@@ -164,7 +164,7 @@ class Alipay implements GatewayApplicationInterface
     /**
      * Verify sign.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param array|null $data
      *
@@ -197,7 +197,7 @@ class Alipay implements GatewayApplicationInterface
     /**
      * Query an order.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param string|array $order
      *
@@ -227,7 +227,7 @@ class Alipay implements GatewayApplicationInterface
     /**
      * Refund an order.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @throws GatewayException
      * @throws InvalidConfigException
@@ -247,7 +247,7 @@ class Alipay implements GatewayApplicationInterface
     /**
      * Cancel an order.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param array|string $order
      *
@@ -271,7 +271,7 @@ class Alipay implements GatewayApplicationInterface
      *
      * @param string|array $order
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @throws GatewayException
      * @throws InvalidConfigException
@@ -291,7 +291,7 @@ class Alipay implements GatewayApplicationInterface
     /**
      * Download bill.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param string|array $bill
      *
@@ -315,7 +315,7 @@ class Alipay implements GatewayApplicationInterface
     /**
      * Reply success to alipay.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      */
     public function success(): Response
     {
@@ -327,7 +327,7 @@ class Alipay implements GatewayApplicationInterface
     /**
      * extend.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @throws GatewayException
      * @throws InvalidConfigException
@@ -363,7 +363,7 @@ class Alipay implements GatewayApplicationInterface
     /**
      * Make pay gateway.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @throws InvalidGatewayException
      *
@@ -385,7 +385,7 @@ class Alipay implements GatewayApplicationInterface
     /**
      * makeExtend.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @throws GatewayException
      * @throws InvalidArgumentException

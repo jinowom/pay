@@ -14,7 +14,7 @@ class ScanGateway extends Gateway
     /**
      * Pay an order.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param string $endpoint
      *
@@ -35,7 +35,7 @@ class ScanGateway extends Gateway
     /**
      * Get trade type config.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      */
     protected function getTradeType(): string
     {

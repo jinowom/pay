@@ -14,7 +14,7 @@ class WebGateway extends Gateway
     /**
      * Pay an order.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param string $endpoint
      *
@@ -44,7 +44,7 @@ class WebGateway extends Gateway
     /**
      * Find.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param $order
      */
@@ -59,7 +59,7 @@ class WebGateway extends Gateway
     /**
      * Build Html response.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param string $endpoint
      * @param array  $payload
@@ -85,7 +85,7 @@ class WebGateway extends Gateway
     /**
      * Get method config.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      */
     protected function getMethod(): string
     {
@@ -95,7 +95,7 @@ class WebGateway extends Gateway
     /**
      * Get productCode config.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      */
     protected function getProductCode(): string
     {

@@ -17,7 +17,7 @@ use Jinowom\Supports\Str;
 use Jinowom\Supports\Traits\HasHttpRequest;
 
 /**
- * @author yansongda <me@yansongda.cn>
+ * @author cocoli6000 <cocoli6000@gmail.com>
  *
  * @property string app_id alipay app_id
  * @property string ali_public_key
@@ -55,7 +55,7 @@ class Support
     /**
      * Bootstrap.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      */
     private function __construct(Config $config)
     {
@@ -68,7 +68,7 @@ class Support
     /**
      * __get.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param $key
      *
@@ -82,7 +82,7 @@ class Support
     /**
      * create.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @return Support
      */
@@ -98,7 +98,7 @@ class Support
     /**
      * getInstance.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @throws InvalidArgumentException
      *
@@ -116,7 +116,7 @@ class Support
     /**
      * clear.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      */
     public function clear()
     {
@@ -126,7 +126,7 @@ class Support
     /**
      * Get Alipay API result.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @throws GatewayException
      * @throws InvalidConfigException
@@ -150,7 +150,7 @@ class Support
     /**
      * Generate sign.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @throws InvalidConfigException
      */
@@ -231,7 +231,7 @@ class Support
     /**
      * Get signContent that is to be signed.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param bool $verify
      */
@@ -271,7 +271,7 @@ class Support
     /**
      * Get service config.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param string|null $key
      * @param mixed|null  $default
@@ -294,7 +294,7 @@ class Support
     /**
      * Get Base Uri.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @return string
      */
@@ -387,7 +387,7 @@ class Support
     /**
      * processingApiResult.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param $data
      * @param $result
@@ -420,7 +420,7 @@ class Support
     /**
      * Set Http options.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      */
     protected function setHttpOptions(): self
     {

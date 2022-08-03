@@ -22,7 +22,7 @@ interface GatewayApplicationInterface
     /**
      * Query an order.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param string|array $order
      *
@@ -33,7 +33,7 @@ interface GatewayApplicationInterface
     /**
      * Refund an order.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @return Collection
      */
@@ -42,7 +42,7 @@ interface GatewayApplicationInterface
     /**
      * Cancel an order.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param string|array $order
      *
@@ -53,7 +53,7 @@ interface GatewayApplicationInterface
     /**
      * Close an order.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param string|array $order
      *
@@ -64,7 +64,7 @@ interface GatewayApplicationInterface
     /**
      * Verify a request.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param string|array|null $content
      *
@@ -75,7 +75,7 @@ interface GatewayApplicationInterface
     /**
      * Echo success to server.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @return Response
      */

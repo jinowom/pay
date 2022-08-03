@@ -9,7 +9,7 @@ class RefundGateway extends Gateway
     /**
      * Find.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param $order
      */
@@ -25,7 +25,7 @@ class RefundGateway extends Gateway
     /**
      * Pay an order.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @param string $endpoint
      *
@@ -39,7 +39,7 @@ class RefundGateway extends Gateway
     /**
      * Get trade type config.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      *
      * @throws InvalidArgumentException
      */

@@ -7,7 +7,7 @@ class WapGateway extends WebGateway
     /**
      * Get method config.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      */
     protected function getMethod(): string
     {
@@ -17,7 +17,7 @@ class WapGateway extends WebGateway
     /**
      * Get productCode config.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      */
     protected function getProductCode(): string
     {

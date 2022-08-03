@@ -30,7 +30,7 @@ class Event extends SymfonyEvent
     /**
      * Bootstrap.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author cocoli6000 <cocoli6000@gmail.com>
      */
     public function __construct(string $driver, string $gateway)
     {
